@@ -1,0 +1,32 @@
+/* Global styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.app-container {
+  padding: 20px;
+}
+
+/* Main title */
+.title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: green;
+  font-size: 1.6rem;
+}

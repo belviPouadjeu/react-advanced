@@ -1,0 +1,59 @@
+/* Styling for the counter container */
+.counter-container {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the count display */
+.count {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* Button group for better alignment */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Base button styles */
+.btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Special styles for the reset button */
+.reset-btn {
+    background-color: #e74c3c;
+}
+
+.reset-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Special styles for the double increment button */
+.double-btn {
+    background-color: #2ecc71;
+}
+
+.double-btn:hover {
+    background-color: #27ae60;
+}

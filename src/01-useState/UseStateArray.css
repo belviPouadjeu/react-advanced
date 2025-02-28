@@ -1,0 +1,85 @@
+/* General Container Styling */
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+.title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* List Container */
+.people-list {
+    margin-bottom: 20px;
+}
+
+/* Individual Person Card */
+.person-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Empty Message */
+.empty-message {
+    font-size: 18px;
+    color: #888;
+}
+
+/* Button Styling */
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Remove Button */
+.remove-btn {
+    background: #ff4d4d;
+    color: white;
+}
+
+.remove-btn:hover {
+    background: #d93636;
+}
+
+/* Clear and Reset Buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.clear-btn {
+    background: #ff9800;
+    color: white;
+}
+
+.clear-btn:hover {
+    background: #e68900;
+}
+
+.reset-btn {
+    background: #4caf50;
+    color: white;
+}
+
+.reset-btn:hover {
+    background: #3d8b40;
+}

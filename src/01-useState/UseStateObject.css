@@ -1,0 +1,33 @@
+.person-container {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.next-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.next-btn:hover {
+    background: #0056b3;
+}
