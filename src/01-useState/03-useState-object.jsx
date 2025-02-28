@@ -13,11 +13,16 @@ const UseStateObject = () => {
     const [index, setIndex] = useState(0);
     const [person, setPerson] = useState(people[0]);
 
+    // Function to cycle through people
     const updatePerson = () => {
-        // Move to the next person, looping back to 0 if at the end
         const nextIndex = (index + 1) % people.length;
         setIndex(nextIndex);
-        setPerson(people[nextIndex]); // Update state with the new person object
+        setPerson(people[nextIndex]);
+    };
+
+    // Function to increase age
+    const increaseAge = () => {
+        setPerson({ ...person, age: person.age + 1 });
     };
 
     return (
@@ -27,6 +32,7 @@ const UseStateObject = () => {
             <p><strong>Age:</strong> {person.age}</p>
             <p><strong>Hobby:</strong> {person.hobby}</p>
             <button className="next-btn" onClick={updatePerson}>Next Person</button>
+            <button className="age-btn" onClick={increaseAge}>Increase Age</button>
         </div>
     );
 }
